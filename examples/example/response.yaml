@@ -1,0 +1,10 @@
+responses:
+  '200':
+    description: your car appointment has been booked
+    content:
+      application/json:
+        schema:
+          $ref: '#/components/schemas/SuccessResponse'
+        examples:
+          confirmation-success:
+            $ref: '#/components/examples/confirmation-success'

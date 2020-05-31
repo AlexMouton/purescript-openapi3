@@ -1,0 +1,14 @@
+in: query
+name: coordinates
+content:
+  application/json:
+    schema:
+      type: object
+      required:
+        - lat
+        - long
+      properties:
+        lat:
+          type: number
+        long:
+          type: number

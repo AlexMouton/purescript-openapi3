@@ -1,0 +1,12 @@
+myCallback:
+  '{$request.query.queryUrl}':
+    post:
+      requestBody:
+        description: Callback payload
+        content:
+          'application/json':
+            schema:
+              $ref: '#/components/schemas/SomePayload'
+      responses:
+        '200':
+          description: callback successfully processed

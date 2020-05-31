@@ -1,0 +1,9 @@
+parameters:
+  - name: 'zipCode'
+    in: 'query'
+    schema:
+      type: 'string'
+      format: 'zip-code'
+    examples:
+      zip-example:
+        $ref: '#/components/examples/zip-example'
