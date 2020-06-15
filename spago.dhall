@@ -2,7 +2,7 @@
 Welcome to a Spago project!
 You can edit this file as you like.
 -}
-{ name = "purescript-openapi3"
+{ name = "openapi3"
 , license = "MIT"
 , repository = "https://github.com/AlexMouton/purescript-openapi3.git"
 , dependencies =
