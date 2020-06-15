@@ -1,0 +1,31 @@
+{
+    "name": "purescript-purescript-openapi3",
+    "license": [
+        "MIT"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/AlexMouton/purescript-openapi3.git"
+    },
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "output"
+    ],
+    "dependencies": {
+        "purescript-argonaut": "^v6.0.0",
+        "purescript-argonaut-generic": "^v5.0.0",
+        "purescript-console": "^v4.4.0",
+        "purescript-effect": "^v2.0.1",
+        "purescript-foldable-traversable": "^v4.1.1",
+        "purescript-generics-rep": "^v6.1.1",
+        "purescript-integers": "^v4.0.0",
+        "purescript-newtype": "^v3.0.0",
+        "purescript-node-buffer": "^v6.0.0",
+        "purescript-node-fs-aff": "^v6.0.0",
+        "purescript-ordered-collections": "^v1.6.1",
+        "purescript-psci-support": "^v4.0.0",
+        "purescript-yayamll": "^v1.1.1"
+    }
+}
